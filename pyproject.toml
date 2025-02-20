@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "rvc-lab"
+version = "0.1.0"
+description = "rvc lab"
+authors = ["Nick Mazurkin <mazurkin@gmail.com>"]
+readme = "README.md"
+
+[[tool.poetry.source]]
+name = "pytorch"
+url = "https://download.pytorch.org/whl/cu124"
+priority = "explicit"
+
+[tool.poetry.dependencies]
+python = "3.10.12"
+
+[tool.poetry.group.pytorch.dependencies]
+torch = { version = "2.6.0+cu124", source="pytorch"}
+torchaudio = { version = "2.6.0+cu124", source="pytorch"}
+torchvision = { version = "0.21.0+cu124", source="pytorch"}
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
