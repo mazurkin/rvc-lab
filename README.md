@@ -10,8 +10,8 @@ bootstrap for https://github.com/RVC-Project/Retrieval-based-Voice-Conversion-We
 
 ## github
 
-    git clone --recurse-submodules git@github.com:mazurkin/facefusion-lab.git facefusion-lab
-    cd facefusion-lab
+    git clone --recurse-submodules git@github.com:mazurkin/rvc-lab.gitt rvc-lab
+    cd rvc-lab
 
 ## installation
 
