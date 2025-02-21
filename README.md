@@ -18,6 +18,7 @@ bootstrap for https://github.com/RVC-Project/Retrieval-based-Voice-Conversion-We
     make env-init-conda
     make env-init-poetry
     make env-init-pip
+    make env-init-models
 
 ## run
 
